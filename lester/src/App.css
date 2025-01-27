@@ -1,3 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.form_body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#b2d4d4;
+}
+
 .nelson_1stchild{
     display: flex;
 }

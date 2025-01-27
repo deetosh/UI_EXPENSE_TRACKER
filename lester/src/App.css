@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.form_body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#b2d4d4;
+}
+
+.nelson_1stchild{
+    display: flex;
+}
+
+
+.b{
+    padding: 20px;
+    font-size: 20px;
+}
+.btn{
+    margin-left: auto;
+    border:2px;
+}
+.chilbtn{
+    margin-left: auto;
+    height: 50px;
+    margin-right: 20px;
+    font-size: 20px;
+    
+}
+

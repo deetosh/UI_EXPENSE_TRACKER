@@ -1,0 +1,63 @@
+
+#nelson {
+    background-color: #007bff;
+    padding: 10px;
+}
+
+.nelson_1stchild {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+  
+.logo {
+    display: flex;
+    align-items: center;
+}
+  
+.logo-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+  
+.title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+  
+.nav-links {
+    display: flex;
+    gap: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+  
+.link:hover {
+    text-decoration: underline;
+}
+  
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    background-color: white;
+    color: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+  
+.btn:hover {
+    background-color: #0056b3;
+    color: white;
+}
+  

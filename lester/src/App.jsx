@@ -8,8 +8,8 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
-      <Head/>
+    <div className='form_body'>
+      <LoginForm/>
     </div>
   )
 }

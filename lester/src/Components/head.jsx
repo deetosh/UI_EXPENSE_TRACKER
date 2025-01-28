@@ -1,24 +1,61 @@
-import React from 'react'
+import React from 'react';
+import './AllCSS/head.css';
+import Login from './Pages/login.jsx';
+import SignUp from './Pages/SignUp.jsx';
+import ReactDOM from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-const head = () => {
+const router= createBrowserRouter(
+    [
+        {
+            path: '/login',
+            element : <Login/>
+        },
+        {
+            path: '/signup',
+            element : <SignUp/>
+        }
+
+    ]
+);
+
+const Head = () => {
   return (
     <div>
-        <nav id="nelson">
-        <div className='nelson_1stchild'>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa3yQ_XJmzxhcKLZyAh3YCvRbYYTxIjTUn6A&s" alt="logo" style={{ width: '50px', height: '50px' }}/>
-          <div className="b">Expense Tracker</div>
-          <div className="b">Home</div>
-          <div className="b">Connect Bank</div>
-          <div className="b">Transactions</div>
-          <div className='btn'>
-            <button className='chilbtn'>Log in</button>
-            <button className='chilbtn'>Sign up</button>
+        <RouterProvider router={router}/>
+      <nav id="nelson">
+        <div className="nelson_1stchild">
+          <div className="logo">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa3yQ_XJmzxhcKLZyAh3YCvRbYYTxIjTUn6A&s"
+              alt="logo"
+              className="logo-img"
+            />
+            <span className="title">Expense Tracker</span>
+          </div>
+
+          <div className="nav-links">
+            <div className="link">Home</div>
+            <div className="link">Connect Bank</div>
+            <div className="link">Transactions</div>
+          </div>
+          <div className="buttons" >
+            <a href='/login'>
+            <button className="btn"  >
+                    <p>Log in</p>
+                </button>
+            </a> 
+                
+            <a href='/signup'>
+            <button className="btn"  >
+                    <p>Sign Up</p>
+                </button>
+            </a> 
           </div>
         </div>
       </nav>
-      
     </div>
-  )
-}
+  );
+};
 
-export default head
+export default Head;

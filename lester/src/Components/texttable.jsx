@@ -29,6 +29,55 @@ const TableExample = () => {
         expenses : "$123123" , 
         buttons: [{ label: "View", action: "view" }],
       },
+      {
+        Name: "Jane Smith",
+        Age: 30,
+        Email: "jane.smith@example.com",
+        expenses : "$123123" , 
+        buttons: [{ label: "View", action: "view" }],
+      },
+      {
+        Name: "Jane Smith",
+        Age: 30,
+        Email: "jane.smith@example.com",
+        expenses : "$123123" , 
+        buttons: [{ label: "View", action: "view" }],
+      },
+      {
+        Name: "Jane Smith",
+        Age: 30,
+        Email: "jane.smith@example.com",
+        expenses : "$123123" , 
+        buttons: [{ label: "View", action: "view" }],
+      },
+      {
+        Name: "Jane Smith",
+        Age: 30,
+        Email: "jane.smith@example.com",
+        expenses : "$123123" , 
+        buttons: [{ label: "View", action: "view" }],
+      },
+      {
+        Name: "Jane Smith",
+        Age: 30,
+        Email: "jane.smith@example.com",
+        expenses : "$123123" , 
+        buttons: [{ label: "View", action: "view" }],
+      },
+      {
+        Name: "Jane Smith",
+        Age: 30,
+        Email: "jane.smith@example.com",
+        expenses : "$123123" , 
+        buttons: [{ label: "View", action: "view" }],
+      },
+      {
+        Name: "Jane Smith",
+        Age: 30,
+        Email: "jane.smith@example.com",
+        expenses : "$123123" , 
+        buttons: [{ label: "View", action: "view" }],
+      },
   ];
 
   const handleButtonClick = (button, row) => {

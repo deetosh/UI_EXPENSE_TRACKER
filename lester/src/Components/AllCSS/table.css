@@ -1,0 +1,38 @@
+.table-container {
+    margin: 20px auto;
+    width: 90%;
+    overflow-x: auto;
+  }
+  
+  .dynamic-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dynamic-table th,
+  .dynamic-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .dynamic-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .action-button {
+    padding: 8px 12px;
+    margin: 0 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .action-button:hover {
+    background-color: darkslategray;
+  }

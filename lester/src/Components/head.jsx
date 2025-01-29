@@ -1,28 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './AllCSS/head.css';
-import Login from './Pages/login.jsx';
-import SignUp from './Pages/SignUp.jsx';
-import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-
-const router= createBrowserRouter(
-    [
-        {
-            path: '/login',
-            element : <Login/>
-        },
-        {
-            path: '/signup',
-            element : <SignUp/>
-        }
-
-    ]
-);
 
 const Head = () => {
   return (
     <div>
-        <RouterProvider router={router}/>
       <nav id="nelson">
         <div className="nelson_1stchild">
           <div className="logo">
@@ -35,16 +17,16 @@ const Head = () => {
           </div>
 
           <div className="nav-links">
-            <div className="link">Home</div>
+            <Link to="/home" className='link'>Home</Link>
             <div className="link">Connect Bank</div>
             <div className="link">Transactions</div>
           </div>
           <div className="buttons" >
-            <a href='/login'>
+            <Link to="/login">
             <button className="btn"  >
                     <p>Log in</p>
                 </button>
-            </a> 
+            </Link> 
                 
             <a href='/signup'>
             <button className="btn"  >

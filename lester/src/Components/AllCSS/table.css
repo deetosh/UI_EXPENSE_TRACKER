@@ -1,7 +1,8 @@
 .table-container {
     margin: 20px auto;
-    width: 90%;
+    width: 100%;
     overflow-x: auto;
+    border-radius: 1em;
   }
   
   .dynamic-table {
@@ -22,6 +23,15 @@
     font-weight: bold;
   }
   
+  /* Alternate row colors */
+  .dynamic-table tbody tr:nth-child(odd) {
+    background-color: #f9f3ff; /* Light gray */
+  }
+  
+  .dynamic-table tbody tr:nth-child(even) {
+    background-color: #ffffff; /* White */
+  }
+  
   .action-button {
     padding: 8px 12px;
     margin: 0 4px;
@@ -35,4 +45,9 @@
   
   .action-button:hover {
     background-color: darkslategray;
+  }
+  
+  .buttons_container {
+    display: flex;
+    gap: 5px;
   }

@@ -22,7 +22,7 @@ const DynamicTable = ({ columns, data, onButtonClick }) => {
               {columns.map((col, colIndex) => (
                 <td key={colIndex}>{row[col]}</td>
               ))}
-              <td>
+              <td className="buttons_container">
                 {row.buttons &&
                   row.buttons.map((button, btnIndex) => (
                     <button

@@ -22,6 +22,62 @@ const TableExample = () => {
       expenses : "$123123" , 
       buttons: [{ label: "View", action: "view" }],
     },
+    {
+        Name: "Jane Smith",
+        Age: 30,
+        Email: "jane.smith@example.com",
+        expenses : "$123123" , 
+        buttons: [{ label: "View", action: "view" }],
+      },
+      {
+        Name: "Jane Smith",
+        Age: 30,
+        Email: "jane.smith@example.com",
+        expenses : "$123123" , 
+        buttons: [{ label: "View", action: "view" }],
+      },
+      {
+        Name: "Jane Smith",
+        Age: 30,
+        Email: "jane.smith@example.com",
+        expenses : "$123123" , 
+        buttons: [{ label: "View", action: "view" }],
+      },
+      {
+        Name: "Jane Smith",
+        Age: 30,
+        Email: "jane.smith@example.com",
+        expenses : "$123123" , 
+        buttons: [{ label: "View", action: "view" }],
+      },
+      {
+        Name: "Jane Smith",
+        Age: 30,
+        Email: "jane.smith@example.com",
+        expenses : "$123123" , 
+        buttons: [{ label: "View", action: "view" }],
+      },
+      {
+        Name: "Jane Smith",
+        Age: 30,
+        Email: "jane.smith@example.com",
+        expenses : "$123123" , 
+        buttons: [{ label: "View", action: "view" }],
+      },
+      {
+        Name: "Jane Smith",
+        Age: 30,
+        Email: "jane.smith@example.com",
+        expenses : "$123123" , 
+        buttons: [{ label: "View", action: "view" }],
+      },
+      {
+        Name: "Jane Smith",
+        Age: 30,
+        Email: "jane.smith@example.com",
+        expenses : "$123123" , 
+        buttons: [{ label: "View", action: "view" }],
+      },
   ];
 
   const handleButtonClick = (button, row) => {
@@ -31,7 +87,6 @@ const TableExample = () => {
 
   return (
     <div>
-      <h1>Dynamic Table Example</h1>
       <DynamicTable
         columns={columns}
         data={data}
